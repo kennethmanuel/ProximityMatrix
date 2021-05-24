@@ -1,0 +1,6 @@
+"0","# Cosine"
+"0","LCosine <- distance(data, method=""cosine"")"
+"2","Metric: 'cosine'; comparing: 8 vectors.
+"
+"0","df_LCosine = as.data.frame(t(LCosine))"
+"0","df_LCosine"

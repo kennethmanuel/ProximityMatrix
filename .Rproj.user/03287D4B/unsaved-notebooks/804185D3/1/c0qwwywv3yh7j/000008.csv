@@ -1,0 +1,6 @@
+"0","# L1 norm / Manhattan distance"
+"0","L1 <- distance(data, method=""manhattan"")"
+"2","Metric: 'manhattan'; comparing: 8 vectors.
+"
+"0","df_L1 = as.data.frame(t(L1))"
+"0","df_L1"
