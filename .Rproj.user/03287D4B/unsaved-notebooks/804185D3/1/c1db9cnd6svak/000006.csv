@@ -1,6 +1,0 @@
-"0","# L2 norm / Euclidean distance"
-"0","L2 <- distance(data, method=""euclidean"")"
-"2","Metric: 'euclidean'; comparing: 8 vectors.
-"
-"0","df_L2 = as.data.frame(t(L2))"
-"0","df_L2"

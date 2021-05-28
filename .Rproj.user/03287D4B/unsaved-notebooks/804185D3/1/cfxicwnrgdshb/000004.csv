@@ -1,6 +1,0 @@
-"0","# L∞ (supremum) / Chebyshev"
-"0","LSup <- distance(data, method=""chebyshev"")"
-"2","Metric: 'chebyshev'; comparing: 8 vectors.
-"
-"0","df_LSup = as.data.frame(t(LSup))"
-"0","df_LSup"
