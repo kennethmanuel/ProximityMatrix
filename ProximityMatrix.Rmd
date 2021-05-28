@@ -23,16 +23,16 @@ data
 ```
 
 ## L1 norm
-L1 Norm atau juga biasa dikenal sebagai **Manhattan Distance** atau **Taxicab Norm** adalah penjumlahan dari besaran vektor pada suatu ruang. 
+
+L1 Norm atau juga biasa dikenal sebagai **Manhattan Distance** atau **Taxicab Norm** adalah penjumlahan dari besaran vektor pada suatu ruang.
 
 Berikut contoh manhattan distance dari data point dengan nilai (0,0) dengan (3,4)
 
 ![](images/1.jpg)
 
-Jarak Manhattan distance dari kedua data point tersebut adalah 
+Jarak Manhattan distance dari kedua data point tersebut adalah
 
 ![](images/L1Example.png)
-
 
 Manhattan distance ini adalah cara paling umum untuk mengukur jarak antar vektor, yaitu jumlah dari selisih absolut dari tiap-tiap komponen vektor.
 
@@ -49,8 +49,9 @@ df_L1
 write.csv(df_L1, "export/L1.csv")
 ```
 
-## L2 norm 
-L2 norm atau yang biasa dikenal dengan **Euclidean distance** adalah jarak terdekat pada antar __data point__.
+## L2 norm
+
+L2 norm atau yang biasa dikenal dengan **Euclidean distance** adalah jarak terdekat pada antar **data point**.
 
 Berikut contoh euclidean distance dari data point dengan nilai (0,0) dengan (3,4)
 
@@ -75,8 +76,8 @@ df_L2
 write.csv(df_L2, "export/L2.csv")
 ```
 
-
 ## L∞
+
 ```{r message=FALSE}
 LSup <- distance(data, method="chebyshev")
 df_LSup = as.data.frame(t(LSup)) # Change to dataframe
@@ -89,6 +90,17 @@ write.csv(df_LSup, "export/LSup.csv")
 ```
 
 # Cosine
+
+Cosine Similarity adalah mengukur kemiripan antara 2 vektor
+
+Berikut adalah rumus hitung dari Cosine Similarity
+
+![Cosine Similarity](images/CosineFormula.png)
+
+Analogi dari cosine similarity :
+
+![Cosine Similarity](images/Cosine.png)
+
 ```{r message=FALSE}
 # Cosine
 LCosine <- distance(data, method="cosine")
@@ -100,5 +112,3 @@ df_LCosine
 # Export to csv
 write.csv(df_LCosine, "export/LCosine.csv")
 ```
-
-
