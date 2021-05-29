@@ -77,7 +77,14 @@ write.csv(df_L2, "export/L2.csv")
 ```
 
 ## L∞
+L Supremum atau yang dikenal dengan L norm tak terhingga yang dimana
+adalah mencari nilai maksimum secara absolut antara setiap element vektor
 
+Berikut contoh L Supremum :
+![Contoh soal dengan L Supremum](images/LSup Example.png)
+![Dengan menggunakan rumus L Supremum](images/LSup Formula.png)
+![Contoh mencari L Supremum dari vektor A dengan Vektor C](images/LSup Answer.png)
+Maka didapatkan lah L Sup dari Vektor A dengan C yaitu bernilai 20
 ```{r message=FALSE}
 LSup <- distance(data, method="chebyshev")
 df_LSup = as.data.frame(t(LSup)) # Change to dataframe
