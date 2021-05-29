@@ -101,6 +101,14 @@ Analogi dari cosine similarity :
 
 ![Cosine Similarity](images/Cosine.png)
 
+Contoh Cosine :
+
+![Cosine Similarity](images/Cosine2.png)
+
+Penyelesaian :
+
+![Cosine Similarity](images/Cosine3.png)
+
 ```{r message=FALSE}
 # Cosine
 LCosine <- distance(data, method="cosine")
