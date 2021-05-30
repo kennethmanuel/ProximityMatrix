@@ -51,7 +51,7 @@ write.csv(df_L1, "export/L1.csv")
 
 ## L2 norm
 
-L2 norm atau yang biasa dikenal dengan **Euclidean distance** adalah jarak terdekat pada antar **data point**.
+L2 norm atau yang biasa dikenal dengan **Euclidean distance** adalah jarak terdekat pada antar __data point__.
 
 Berikut contoh euclidean distance dari data point dengan nilai (0,0) dengan (3,4)
 
@@ -77,13 +77,14 @@ write.csv(df_L2, "export/L2.csv")
 ```
 
 ## L∞
-L Supremum atau yang dikenal dengan L norm tak terhingga yang dimana
-adalah mencari nilai maksimum secara absolut antara setiap element vektor
+L infinite atau **L supremum** adalah jarak nilai maksimum secara absolut antara tiap elemen vektor.
 
 Berikut contoh L Supremum :
-![Contoh soal dengan L Supremum](images/LSup Example.png)
-![Dengan menggunakan rumus L Supremum](images/LSup Formula.png)
-![Contoh mencari L Supremum dari vektor A dengan Vektor C](images/LSup Answer.png)
+
+![](images/LSup Formula.png)
+
+![](images/LSup Answer.png)
+
 Maka didapatkan lah L Sup dari Vektor A dengan C yaitu bernilai 20
 ```{r message=FALSE}
 LSup <- distance(data, method="chebyshev")
@@ -98,23 +99,23 @@ write.csv(df_LSup, "export/LSup.csv")
 
 # Cosine
 
-Cosine Similarity adalah mengukur kemiripan antara 2 vektor
+Cosine Similarity adalah ukuran kemiripan antara 2 vektor. NIlai cosine similarity berada pada range antara 0 dan 1.
 
 Berikut adalah rumus hitung dari Cosine Similarity
 
-![Cosine Similarity](images/CosineFormula.png)
+![](images/CosineFormula.png)
 
 Analogi dari cosine similarity :
 
-![Cosine Similarity](images/Cosine.png)
+![](images/Cosine.png)
 
 Contoh Cosine :
 
-![Cosine Similarity](images/Cosine2.png)
+![](images/Cosine2.png)
 
 Penyelesaian :
 
-![Cosine Similarity](images/Cosine3.png)
+![](images/Cosine3.png)
 
 ```{r message=FALSE}
 # Cosine
