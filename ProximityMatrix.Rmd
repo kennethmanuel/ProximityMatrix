@@ -1,5 +1,7 @@
 ---
-title: "R Notebook"
+title: "Proximity Matrix"
+subtitle: "L1, L2, L∞, Cosine Similarity"
+author: "Kenneth Manuel 160419041, Jehuda Rivaldo 160419133, Chaniago Marcel 160419053"
 output:
   html_document:
     df_print: paged
